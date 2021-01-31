@@ -1,0 +1,24 @@
+@charset "UTF-8";
+
+h1{
+	color:red;
+}
+#list {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+#list td, #list th {
+  border: 1px solid rgb(255, 128, 192)fff;
+  padding: 10px;
+  text-align:center;
+}
+#list tr:nth-child(even){background-color: #f2f2f2;}
+#list tr:hover {background-color: rgb(254, 231, 250);}
+#list th {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  text-align: left;
+  background-color: rgb(255, 0, 128);
+  color: white;
+}
